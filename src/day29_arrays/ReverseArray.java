@@ -28,6 +28,7 @@ public class ReverseArray {
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(reverse));
 
+        reverse[3] = arr[1];
         /*
            i = 0
            reverse[arr.length - 1 - i] = arr[i];
@@ -37,7 +38,6 @@ public class ReverseArray {
            i = 1
            reverse[arr.length - 1 - i] = arr[i];
            reverse[5 - 1 - 1] = arr[1];
-           reverse[3] = arr[1];
 
            i = 2
            reverse[arr.length - 1 - i] = arr[i];
